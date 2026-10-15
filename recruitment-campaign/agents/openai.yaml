@@ -1,0 +1,5 @@
+interface:
+  display_name: "通用招聘 Campaign"
+  short_description: "把品牌事实和真实工作转化为吸引应聘者并推动行动的招聘 Campaign"
+  brand_color: "#48655A"
+  default_prompt: "Use $recruitment-campaign to turn this hiring brief into a distinctive, evidence-backed recruitment campaign and deliver it in the requested format."

@@ -1,12 +1,13 @@
 # Zoe's Codex Skills
 
-Three reusable Codex skills for academic mapping and recruiting workflows.
+Four reusable Codex skills for academic mapping, recruiting workflows, and employer-brand campaigns.
 
 ## Skills
 
 - `academic-advisor-mapping`: evidence-backed advisor, publication, and advisee mapping with public homepages, professional emails, and verified OpenReview profiles.
 - `academic-talent-sourcing`: research-paper author extraction, public-web enrichment, JD fit assessment, outreach generation, and structured export.
 - `launch-client-search`: client and role kickoff analysis for recruiting, including talent maps, screening guides, outreach patterns, and Word deliverables.
+- `recruitment-campaign`: evidence-backed recruitment campaign strategy, copy, visual direction, website execution, publishing QA, and applicant-action design.
 
 ## Install
 
@@ -21,5 +22,4 @@ Keep the directory structure intact, including `agents/`, `references/`, and `sc
 ## Privacy and responsible use
 
 Use only lawfully available information and respect applicable privacy, platform, and employment rules. Do not use these skills to discover private contact details, bypass access controls, or infer sensitive personal information.
-
 
