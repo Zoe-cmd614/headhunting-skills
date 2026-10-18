@@ -3,7 +3,7 @@
 Usage:
   python build_client_launch_docx.py input.md output.docx \
     --title "客户 岗位 客户启动与寻访手册" \
-    --subtitle "客户理解 人才画像 电话筛选 寻访话术 执行计划" \
+  --subtitle "客户故事 人才画像 Cold Call 寻访话术 执行计划" \
     --meta "适用对象=TTC 项目顾问和寻访顾问" \
     --meta "资料时点=2026 年 9 月 14 日" \
     --confidentiality "TTC 内部使用"
@@ -381,7 +381,7 @@ def main():
     parser.add_argument("input", type=Path)
     parser.add_argument("output", type=Path)
     parser.add_argument("--title", required=True)
-    parser.add_argument("--subtitle", default="客户理解 人才画像 电话筛选 寻访话术 执行计划")
+    parser.add_argument("--subtitle", default="客户故事 人才画像 Cold Call 寻访话术 执行计划")
     parser.add_argument("--meta", action="append", default=[])
     parser.add_argument("--confidentiality", default="TTC 内部使用")
     args = parser.parse_args()
@@ -407,4 +407,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
